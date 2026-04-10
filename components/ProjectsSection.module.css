@@ -1,0 +1,56 @@
+.projects {
+  background: var(--bg-gradient);
+  position: relative;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: var(--color-dark);
+  font-weight: 800;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.projectCard {
+  background: var(--color-white);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagePlaceholder {
+  height: 200px;
+  background: linear-gradient(135deg, var(--color-green) 0%, rgba(52, 211, 153, 0.4) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.projectInfo {
+  padding: 1.5rem;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  color: var(--color-dark);
+  margin-bottom: 0.5rem;
+}
+
+.projectDesc {
+  font-size: 1rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
